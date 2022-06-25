@@ -215,6 +215,7 @@ a {
 @media (max-width: 1000px) {
   .section-header {
     padding: 2rem 0rem;
+    z-index: 99999;
   }
   .section-header .main-logo {
     margin-left: 2rem;
@@ -237,7 +238,7 @@ a {
     height: 100vh;
     background-color: #7952b3;
     transition: all 0.5s linear;
-    z-index: 9999;
+    z-index: 9999999;
     display: grid;
     place-content: center;
     text-align: center;
