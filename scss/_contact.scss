@@ -1,0 +1,78 @@
+.contact-section {
+  gap: 2rem;
+  padding-bottom: 10rem;
+  position: relative;
+
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .contact-left-question {
+      font-size: 4.5rem;
+    }
+    .contact-left-contact {
+      font-size: 4.5rem;
+      color: $paragraph-color;
+    }
+  }
+
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      input,
+      textarea {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #c9c9c9;
+        padding: 2rem 0rem;
+        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;
+        color: $paragraph-color;
+
+        &::placeholder {
+          color: $placeholder-color;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.4rem;
+        }
+      }
+
+      a {
+        max-width: 20.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/*------------------------------------------------------------------------------------------------
+------------------------------------MEDIA QUERIES START---------------------------------------------
+---------------------------------------- ----------------------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    padding: 5rem 3rem;
+
+    h2 {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1010px) and (max-width: 1400px) {
+  .contact-section {
+    padding: 5rem 3rem;
+  }
+}
