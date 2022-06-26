@@ -30,20 +30,18 @@
 
         <nav class="navbar" id="show-hide-menu">
             <div class="mobile-verson-button">
-                <!-- <i class="uil uil-bars open-button" id="show-menu" onclick="showMenu()"></i> -->
                 <i class="uil uil-times close-button"  onclick="hideMenu()"></i>
             </div>
             <ul class="navbar-list" id="navList">
                 <li><a href="index.html" class="navbar-links">Home</a></li>
-                <li><a href="#my-about" class="navbar-links">About</a></li>
+                <li><a href="#my-about" class="navbar-links" onclick="hideMenuAbout()">About</a></li>
                 <li><a href="project.html" class="navbar-links">Projects</a></li>
-                <li><a href="#my-contact" class="btn navbar-button">Contact</a></li>
+                <li><a href="#my-contact" class="btn navbar-button" onclick="hideMenuContact()">Contact</a></li>
             </ul>
             
         </nav>
         <div class="mobile-verson-button">
             <i class="uil uil-bars open-button"  onclick="showMenu()"></i>
-            <!-- <i class="uil uil-times close-button" id="hide-menu" onclick="hideMenu()"></i> -->
         </div>
     </div>
 
@@ -160,75 +158,75 @@
         <div class="skills">
             <div class="experienced">
                 <h3>EXPERIENCED WITH</h3>
-                <div class="experience-tool-list">
+                <div class="experience-tool-list ">
                     <div class="experience-tool tool1">
-                        <div class="tooldiv">
+                        <div class="tooldiv  animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/html.png" alt="html icon">                       
                         </div>
                         <p>HTML</p>
                     </div>
                     <div class="experience-tool tool2">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/css-3.png" alt="html icon">                       
                         </div>
                         <p>CSS</p>
                     </div>
                     <div class="experience-tool tool3">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/js.png" alt="html icon">                       
                         </div>
                         <p>JAVASCRIPT</p>
                     </div>
                     <div class="experience-tool tool4">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/bootstrap.png" alt="html icon">                       
                         </div>
                         <p>BOOTSTRAP</p>
                     </div>
                     <div class="experience-tool tool5">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/sass.png" alt="html icon">                       
                         </div>
                         <p>SASS</p>
                     </div>
                     <div class="experience-tool tool6">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/figma.png" alt="html icon">                       
                         </div>
                         <p>FIGMA</p>
                     </div>
                     <div class="experience-tool tool7">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/icons8-canva-app-64.png" alt="html icon">                       
                         </div>
                         <p>CANVA</p>
                     </div>
                     <div class="experience-tool tool8">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/responsive-design.png" alt="html icon">                       
                         </div>
                         <p>RESPONSIVE<br>DESIGN</p>
                     </div>
                     <div class="experience-tool tool9">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/git.png" alt="html icon">                       
                         </div>
                         <p>GIT</p>
                     </div>
                     <div class="experience-tool tool10">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/github (2).png" alt="html icon">                       
                         </div>
                         <p>GITHUB</p>
                     </div>
                     <div class="experience-tool tool11">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/wordpress-logo.png" alt="html icon">                       
                         </div>
                         <p>WORDPRESS</p>
                     </div>
                     <div class="experience-tool tool12">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/elementor.png" alt="html icon">                       
                         </div>
                         <p>ELEMENTOR</p>
@@ -239,25 +237,25 @@
                 <h3>LEARNING/IN-PROGRESS</h3>
                 <div class="learning-tool-list">
                     <div class="learning-tool learn1">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/mongodb.png" alt="html icon">                       
                         </div>
                         <p>MONGODB</p>
                     </div>
                     <div class="learning-tool learn2">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/express.png" alt="html icon">                       
                         </div>
                         <p>EXPRESS</p>
                     </div>
                     <div class="learning-tool learn3">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/react.png" alt="html icon">                       
                         </div>
                         <p>REACT JS</p>
                     </div>
                     <div class="learning-tool learn4">
-                        <div class="tooldiv">
+                        <div class="tooldiv animate__animated animate__pulse animate__infinite infinite">
                             <img src="images/technologies/nodejs.png" alt="html icon">                       
                         </div>
                         <p>NODE JS</p>
@@ -274,7 +272,7 @@
     
     <section class="section-project section container">
         <h2 class="common-heading">PROJECTS</h2>
-        <div class="my-projects grid-three-column">
+        <div class="my-projects grid-three-column"  data-aos="slide-up" data-aos-duration="8000" data-aos-easing="linear">
             <div class="project-box project-box1">
                 <img src="images/portfolio/GreenTechConcern Mockup-new.png" alt="greentech concern it company website">
                 <div class="overlay">
@@ -313,11 +311,11 @@
             <p>I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.</p>
         </div>
         <div class="contact-right">
-            <form action="">
+            <form action="formhandler.php" method="post">
                 <input type="text" name="fullname" id="fullname" placeholder="Enter your name" required>
                 <input type="email" name="email" id="email" placeholder="Enter your email address" required>
                 <textarea name="message" id="message"  placeholder="Your message" required></textarea>
-                <a href="#" class="btn">Submit your message</a>
+                <button type="submit" class="btn form-submit-btn">Submit your message</button>
             </form>
         </div>
     </section>
@@ -344,7 +342,7 @@
 
         <!-- SCROLL TO TOP BUTTON -->
         <div class="scroll-top btn">
-            <div class="scroll-top-button">
+            <div class="scroll-top-button  animate__animated animate__pulse animate__infinite infinite">
                 <a href="#"><img src="images/icons/scroll-top.png" alt="scroll to top button"></a>
             </div>
            

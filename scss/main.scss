@@ -62,12 +62,12 @@ h2 {
   color: $heading-color;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #ffffff;
   color: $heading-color;
 }
 h4 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: $heading-color;
 }
 
@@ -154,6 +154,7 @@ a {
 @import "projects";
 @import "contact";
 @import "footer";
+@import "allproject-page";
 
 /*------------------------------------------------------------------------------------------------
 ------------------------------------MEDIA QUERIES START---------------------------------------------
